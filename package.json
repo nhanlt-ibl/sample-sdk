@@ -5,9 +5,8 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "clean": "rm -rf lib",
     "build": "tsc",
-    "prepare": "npm run clean && npm run build",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "LyNhan",
