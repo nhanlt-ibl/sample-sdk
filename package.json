@@ -2,10 +2,10 @@
   "name": "typescript-sdk",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
+  "main": "typescript-sdk",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "clean":"rm -rf lib",
+    "clean": "rm -rf lib",
     "prepare": "npm run clean && npm run build",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,8 +17,15 @@
     "@types/redux": "^3.6.0",
     "@types/string-template": "^1.0.2",
     "axios": "^0.18.0",
+    "module-alias": "^2.1.0",
     "redux": "^4.0.1",
     "string-template": "^1.0.0",
     "typescript": "^3.2.1"
+  },
+  "_moduleAliases": {
+    "ventures/action": "./lib/actions",
+    "ventures/constants": "./lib/constants",
+    "ventures/reducers": "./lib/reducers",
+    "ventures/selector": "./lib/selector"
   }
 }

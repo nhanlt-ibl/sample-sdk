@@ -1,1 +1,1 @@
-export {default as authenMiddleware} from "./middlewares"
+export {default as authenMiddleware} from './middlewares';
