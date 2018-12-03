@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "umd",
+    "target": "ES2015",
+    "declaration": true,
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "strict": true,
+    "removeComments": true,
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*"]
+}
