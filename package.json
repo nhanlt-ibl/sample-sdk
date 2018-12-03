@@ -2,12 +2,12 @@
   "name": "typescript-sdk",
   "version": "1.0.0",
   "description": "",
-  "main": "typescript-sdk",
+  "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
     "clean": "rm -rf lib",
-    "prepare": "npm run clean && npm run build",
     "build": "tsc",
+    "prepare": "npm run clean && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "LyNhan",
@@ -23,9 +23,9 @@
     "typescript": "^3.2.1"
   },
   "_moduleAliases": {
-    "ventures/action": "./lib/actions",
+    "ventures/actions": "./lib/actions",
     "ventures/constants": "./lib/constants",
     "ventures/reducers": "./lib/reducers",
-    "ventures/selector": "./lib/selector"
+    "ventures/selectors": "./lib/selector"
   }
 }
