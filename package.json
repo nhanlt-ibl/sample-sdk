@@ -13,19 +13,11 @@
   "author": "LyNhan",
   "license": "ISC",
   "dependencies": {
-    "@types/axios": "^0.14.0",
-    "@types/redux": "^3.6.0",
     "@types/string-template": "^1.0.2",
     "axios": "^0.18.0",
     "module-alias": "^2.1.0",
     "redux": "^4.0.1",
     "string-template": "^1.0.0",
     "typescript": "^3.2.1"
-  },
-  "_moduleAliases": {
-    "ventures/actions": "./lib/actions",
-    "ventures/constants": "./lib/constants",
-    "ventures/reducers": "./lib/reducers",
-    "ventures/selectors": "./lib/selector"
   }
 }
