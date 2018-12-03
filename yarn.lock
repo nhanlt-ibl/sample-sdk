@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@types/axios@^0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@types/axios/-/axios-0.14.0.tgz#ec2300fbe7d7dddd7eb9d3abf87999964cafce46"
+  integrity sha1-7CMA++fX3d1+udOr+HmZlkyvzkY=
+  dependencies:
+    axios "*"
+
 "@types/redux@^3.6.0":
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/@types/redux/-/redux-3.6.0.tgz#f1ebe1e5411518072e4fdfca5c76e16e74c1399a"
@@ -9,7 +16,12 @@
   dependencies:
     redux "*"
 
-axios@^0.18.0:
+"@types/string-template@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@types/string-template/-/string-template-1.0.2.tgz#363b273c9b456705e3111e3571e9248f6474eba4"
+  integrity sha1-NjsnPJtFZwXjER41cekkj2R066Q=
+
+axios@*, axios@^0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
   integrity sha1-MtU+SFHv3AoRmTts0AB4nXDAUQI=
